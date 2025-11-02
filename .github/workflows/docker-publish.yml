@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: ${{ secrets.IMAGE_NAME || 'deinname/pdf-ocr-llm' }}
+  IMAGE_NAME: ${{ secrets.IMAGE_NAME || 'lairetm/pdf-ocr-llm' }}
 
 jobs:
   docker:
